@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6563a1d168.js" crossorigin="anonymous"></script>
 
     <style>
         .font-roboto {
@@ -20,13 +21,28 @@
         .font-bebas-neue {
             font-family: "Bebas Neue", serif;
         }
+
     </style>
 </head>
 
 <body class="font-roboto ">
     <header class="bg-[#FFFBF0] px-5">
-        <nav>
-
+        <nav class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3 py-10 ">
+                <img src="images/logo.png" alt="">
+                <h2 class="font-bold text-2xl"><span class="text-[#A4BC46]">Penguin</span> <span class="text-[#363958]">Fashion</span></h2>
+            </div>
+            <div>
+                <ul class="hidden md:flex md:gap-14">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars text-3xl"></i>
+            </div>
         </nav>
         <!-- banner start -->
         <div class=" md:flex md:items-center md:justify-between max-w-6xl mx-auto">
